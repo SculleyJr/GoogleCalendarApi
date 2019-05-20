@@ -2,6 +2,13 @@
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 
+
+.container1{
+  display: flex;
+}
+.calendar{
+  width: 50%;
+}
 .month {
   padding: 70px 25px;
   width: 100%;
