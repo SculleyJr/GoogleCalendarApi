@@ -1,6 +1,10 @@
-document.getElementById('button1').addEventListener('click', loadEvent);
 
-function loadEvent(e) {
+// document.getElementById('button1').addEventListener('click', loadEvent);
+
+
+
+
+function loadEvent() {
 
     const xhr = new XMLHttpRequest();
     xhr.open('GET', 'https://www.googleapis.com/calendar/v3/calendars/sculley90@gmail.com/events?key=AIzaSyAP7kJgXgEw9CYvuptZ2kjCdiSaDRYwRY0', true);
@@ -68,4 +72,7 @@ function loadEvent(e) {
     }
     xhr.send();
 
+}
+window.onload = function(){
+    loadEvent();
 }

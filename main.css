@@ -5,15 +5,21 @@ body {font-family: Verdana, sans-serif;}
 
 .container1{
   display: flex;
+  justify-content: space-around;
 }
 .calendar{
   width: 50%;
+  height: 300px;
 }
 .month {
   padding: 70px 25px;
   width: 100%;
   background: #1abc9c;
   text-align: center;
+}
+
+.list-items{
+  height: 300px;
 }
 
 .month ul {
